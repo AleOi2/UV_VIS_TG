@@ -188,7 +188,7 @@ def Prepare_File_List( Name):
 
     for Value in X:
         File_List2.append("%s_%d_%s" % (Name, Value, Index))
-    rcParams['axes.color_cycle']= sns.color_palette('coolwarm', len(File_List2))
+    # rcParams['axes.color_cycle']= sns.color_palette('coolwarm', len(File_List2))
 
     return File_List2
     
